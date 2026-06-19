@@ -1,6 +1,6 @@
 # Visualizador de Cena 3D com OpenGL
 
-Projeto desenvolvido para a disciplina de Computação Gráfica. O programa implementa um visualizador de cenas tridimensionais com carregamento de arquivos OBJ e MTL, texturas, iluminação de Phong, câmera sintética, transformações geométricas e animação por curva de Bézier.
+Projeto desenvolvido para a disciplina de Computação Gráfica. O programa implementa um visualizador de cenas 3D com carregamento de arquivos OBJ e MTL, texturas, iluminação de Phong, câmera sintética, transformações geométricas e animação por curva de Bézier.
 
 ## Funcionalidades
 
@@ -56,7 +56,7 @@ Os arquivos da cena devem permanecer dentro da pasta `assets`, mantendo a seguin
 
 ```text
 assets/
-├── configuracao_sala.txt
+├── configuracao.txt
 ├── Modelos3D/
 │   ├── Sofa.obj
 │   ├── Sofa.mtl
