@@ -88,15 +88,15 @@ assets/
 
 * Modelo: Sofa
 * Formato original: OBJ, MTL e textura JPG
-* Fonte: [COLOCAR LINK DO MODELO DO SOFÁ]
-* Licença: [COLOCAR LICENÇA INFORMADA PELO SITE]
+* Fonte: https://polyhaven.com/a/Sofa_01
+* Licença: https://polyhaven.com/license
 
 ### Televisão
 
 * Modelo: Television
 * Formato original: OBJ, MTL e textura JPG
-* Fonte: [COLOCAR LINK DO MODELO DA TELEVISÃO]
-* Licença: [COLOCAR LICENÇA INFORMADA PELO SITE]
+* Fonte: https://polyhaven.com/a/Television_01
+* Licença: https://polyhaven.com/license
 
 Os modelos foram processados no Blender 5.1.2 para verificação da malha, exportação para OBJ/MTL e preparação das faces, normais e coordenadas de textura.
 
