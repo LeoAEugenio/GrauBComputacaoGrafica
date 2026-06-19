@@ -1,0 +1,27 @@
+# cena.txt - Sofa + Television
+#
+# Formatos:
+# camera px py pz yaw pitch fov near far
+# object nome objPath mtlPath texturePath px py pz rx ry rz sx sy sz Ka(3) Kd(3) Ks(3) shininess
+# bezier nomeObjeto P0(3) P1(3) P2(3) P3(3) velocidade
+# keyLight px py pz r g b intensidade
+# fillLight px py pz r g b intensidade
+# backLight px py pz r g b intensidade
+# globalIntensity valor
+
+camera 0.0 0.70 4.0 -90.0 -5.0 45.0 0.1 100.0
+
+# OBJ 1: sofa
+object Sofa assets/Modelos3D/Sofa.obj assets/Modelos3D/Sofa.mtl assets/Textures/Sofa_01_diff_1k.jpg 0.0 -0.70 0.0 0.0 180.0 0.0 2.5 2.5 2.5 0.20 0.20 0.20 0.80 0.80 0.80 0.35 0.35 0.35 32.0
+
+# OBJ 2: televisao
+object Television assets/Modelos3D/Television.obj assets/Modelos3D/Television.mtl assets/Textures/Television_01_diff_1k.jpg 2.20 -0.70 0.0 0.0 180.0 0.0 2.0 2.0 2.0 0.20 0.20 0.20 0.80 0.80 0.80 0.35 0.35 0.35 32.0
+
+# A televisao percorre uma curva Bezier cubica.
+bezier Television 2.20 -0.70 0.0 1.50 0.20 -0.50 2.80 0.20 -0.50 2.20 -0.70 1.00 0.22
+
+keyLight 2.2 2.2 2.8 1.0 0.95 0.86 1.20
+fillLight -2.5 1.5 2.4 0.70 0.82 1.0 0.55
+backLight 0.0 2.1 -2.2 1.0 1.0 1.0 0.75
+
+globalIntensity 1.0
